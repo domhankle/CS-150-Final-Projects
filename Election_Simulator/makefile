@@ -12,4 +12,4 @@ $(MAINPROG): $(OBJECTS)
 	g++ -c $< -o $@
 
 clean:
-  rm *.o
+  rm *.o $(MAINPROG)
